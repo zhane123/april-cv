@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=form, initial-scale=1.0">
+	<title>Contact Form</title>
+
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" href="/images/favicon-32x32.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="/styles.css">
+</head>
+
+
+
+<header class="header">
+	<h1 class="full-name">Zhané Simpson </h1>
+</header>
+
+<body>
+	<form name="contact" method="POST" data-netlify="true">
+
+		<label for="text">First Name</label>
+		<input type="text" name="name" id="firstname" required>
+
+		<label for="secondname">Second Name</label>
+		<input type="text" name="Secondname" id="Secondname">
+
+		<p><label for="email">Email</label>
+			<input type="email" name="email" id="email" required>
+		</p>
+
+		<h2>Request a call back?</h2>
+		<input type="date" name="date" id="date">
+		<input type="time" name="time" id="time">
+
+		<p><textarea name="message" id="message" cols="30" rows="10">Any comments?</textarea></p>
+
+		<button type="submit">Submit</button>
+		<button type="reset">Reset</button>
+
+		<button><a href="/Index.html">Return to CV</a></button>
+
+
+	</form>
+
+</body>
+
+</html>
